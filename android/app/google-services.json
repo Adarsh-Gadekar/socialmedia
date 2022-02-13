@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "523177289130",
+    "project_id": "vkonnect-9866c",
+    "storage_bucket": "vkonnect-9866c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523177289130:android:6dc1c4fec8b489378e77d3",
+        "android_client_info": {
+          "package_name": "com.example.vkonnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523177289130-i4s5mibj0i8vcdh82e7gfuieel4m8i3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vkonnect",
+            "certificate_hash": "ca4cca8518a92620ec2268e6379d1e767b0b5e7d"
+          }
+        },
+        {
+          "client_id": "523177289130-gjcpv4n64r58he8rl606stu02344g116.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAviHYV62ghZ4oesSNeaMEsLkeKvuvBFQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523177289130-gjcpv4n64r58he8rl606stu02344g116.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
