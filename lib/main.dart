@@ -1,10 +1,13 @@
 import 'package:vkonnect/constants/Constantcolors.dart';
 import 'package:vkonnect/screens/LandingPage/landingHelpers.dart';
+import 'package:vkonnect/screens/Landingpage/landingUtils.dart';
 import 'package:vkonnect/screens/Splashscreen/splashScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:vkonnect/services/Authentication.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:vkonnect/screens/Landingpage/landingServices.dart';
+import 'package:vkonnect/services/FirebaseOperations.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,6 +30,9 @@ class MyApp extends StatelessWidget {
                 .copyWith(secondary: constantColors.blueColor)),
       ),
       providers: [
+        ChangeNotifierProvider(create: (_) => LandingUtils()),
+        ChangeNotifierProvider(create: (_) => FirebaseOperations()),
+        ChangeNotifierProvider(create: (_) => LandingService()),
         ChangeNotifierProvider(create: (_) => Authentication()),
         ChangeNotifierProvider(create: (_) => LandingHelpers())
       ],

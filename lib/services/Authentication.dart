@@ -16,7 +16,7 @@ class Authentication with ChangeNotifier {
 
     User user = userCredential.user;
     userUid = userUid;
-    print(userUid);
+    print('Created Account Uid => $userUid');
     notifyListeners();
   }
 
